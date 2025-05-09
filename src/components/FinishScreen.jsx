@@ -10,7 +10,7 @@ function FinishScreen({ points, maxPossiblePoints, dispatch }) {
   if (percentage <= 50 && percentage < 60) grade = "C";
   if (percentage <= 45 && percentage < 50) grade = "D";
   if (percentage < 45) grade = "You should be ashamed of yourself, you pagan";
-  console.log(grade);
+  //   console.log(grade);
 
   return (
     <div className="grid gap-3">
