@@ -13,7 +13,7 @@ function Timer({ dispatch, secondsRemaining }) {
   }, [dispatch]);
 
   return (
-    <div className="hover:cursor-pointer font-bold hover:shadow-2xl bg-green-500 border-2 rounded-3xl p-3 w-22 text-center float-left">
+    <div className="hover:cursor-pointer font-bold hover:shadow-2xl bg-pink-500 border-2 rounded-3xl p-3 w-22 text-center float-left">
       {mins}:{seconds}
     </div>
   );

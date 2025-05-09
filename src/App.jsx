@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 import Timer from "./components/Timer";
 // import { oldTestament, newTestament } from "./data/bibleQuizQuestions";
 
-const SEC_PER_QUESTION = 20;
+const SEC_PER_QUESTION = 5;
 
 const initialState = {
   status: "ready",
